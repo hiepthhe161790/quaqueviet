@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const http = require('http');
 const app = express();
@@ -9,7 +11,6 @@ const mongoose = require('mongoose');
 const ErrorHandle = require('./src/middlewares/errorHandle.middleware');
 const cookieParser = require('cookie-parser');
 const socket = require('./src/utils/socket');
-require('dotenv').config();
 
 mongoose.connect(databaseURL)
   .then(() => console.log('MongoDB connected'))

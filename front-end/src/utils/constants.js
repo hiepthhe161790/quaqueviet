@@ -1,5 +1,4 @@
-const BACKEND_API_URI = process.env.BACKEND_API_URI
-
+const BACKEND_API_URI = process.env.REACT_APP_BACKEND_API_URI
 export {
     BACKEND_API_URI
 }
