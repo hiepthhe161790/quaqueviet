@@ -5,6 +5,7 @@ import Product from "../../home/Products/Product";
 import { useSelector } from "react-redux";
 import ProductService from '../../../services/api/ProductService';
 import { useDiscount } from '../../../context/DiscountContext';
+import { Skeleton } from '@mui/material';
 function Items({ currentItems, discountSuggestions }) {
   return (
     <>
@@ -48,10 +49,35 @@ function Items({ currentItems, discountSuggestions }) {
   );
 }
 
+// Loading skeleton component
+const ProductSkeleton = () => {
+  return (
+    <div className="w-full">
+      <Skeleton variant="rectangular" height={200} className="mb-2" />
+      <Skeleton variant="text" height={24} className="mb-1" />
+      <Skeleton variant="text" height={24} width="60%" />
+      <div className="mt-2">
+        <Skeleton variant="rectangular" height={36} width="40%" />
+      </div>
+    </div>
+  );
+};
+
+const LoadingGrid = () => {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mdl:gap-4 lg:gap-10">
+      {[1, 2, 3, 4, 5, 6].map((item) => (
+        <ProductSkeleton key={item} />
+      ))}
+    </div>
+  );
+};
+
 const Pagination = ({ itemsPerPage, sortOrder }) => {
   const [products, setProducts] = useState([]);
   const [itemOffset, setItemOffset] = useState(0);
   const [itemStart, setItemStart] = useState(1);
+  const [isLoading, setIsLoading] = useState(true);
 
   const selectedBrands = useSelector(
     (state) => state.orebiReducer.checkedBrands
@@ -70,14 +96,21 @@ const Pagination = ({ itemsPerPage, sortOrder }) => {
 
   useEffect(() => {
     const fetchProducts = async () => {
-      const fetchedProducts = await ProductService.getAllProducts()
-      if (sortOrder === "Ascending") {
-        fetchedProducts.sort((a, b) => a.price - b.price)
-      } else if (sortOrder === "Decrease") {
-        fetchedProducts.sort((a, b) => b.price - a.price)
+      setIsLoading(true);
+      try {
+        const fetchedProducts = await ProductService.getAllProducts();
+        if (sortOrder === "Ascending") {
+          fetchedProducts.sort((a, b) => a.price - b.price);
+        } else if (sortOrder === "Decrease") {
+          fetchedProducts.sort((a, b) => b.price - a.price);
+        }
+        setProducts(fetchedProducts);
+      } catch (error) {
+        console.error('Error fetching products:', error);
+      } finally {
+        setIsLoading(false);
       }
-      setProducts(fetchedProducts);
-    }
+    };
 
     fetchProducts();
   }, [sortOrder]);
@@ -133,9 +166,13 @@ const Pagination = ({ itemsPerPage, sortOrder }) => {
   // console.log("Current Items:", currentItems);
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mdl:gap-4 lg:gap-10">
-        <Items currentItems={currentItems} discountSuggestions={discountSuggestions} />
-      </div>
+      {isLoading ? (
+        <LoadingGrid />
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mdl:gap-4 lg:gap-10">
+          <Items currentItems={currentItems} discountSuggestions={discountSuggestions} />
+        </div>
+      )}
       <div className="flex flex-col mdl:flex-row justify-center mdl:justify-between items-center">
         <ReactPaginate
           nextLabel=""
