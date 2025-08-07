@@ -6,7 +6,7 @@ axios.defaults.withCredentials = true;
 const api = axios.create({
     baseURL: BACKEND_API_URI
 });
-
+console.log('API base URL:', BACKEND_API_URI);
 // Add this interceptor to attach accessToken to every request
 api.interceptors.request.use(
     (config) => {
