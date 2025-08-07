@@ -5,7 +5,12 @@ import Product from "../../home/Products/Product";
 import { useSelector } from "react-redux";
 import ProductService from '../../../services/api/ProductService';
 import { useDiscount } from '../../../context/DiscountContext';
-import { Skeleton } from '@mui/material';
+
+const LoadingSpinner = () => (
+  <div className="flex justify-center items-center min-h-[400px]">
+    <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-gray-900"></div>
+  </div>
+);
 function Items({ currentItems, discountSuggestions }) {
   return (
     <>
@@ -49,30 +54,6 @@ function Items({ currentItems, discountSuggestions }) {
   );
 }
 
-// Loading skeleton component
-const ProductSkeleton = () => {
-  return (
-    <div className="w-full">
-      <Skeleton variant="rectangular" height={200} className="mb-2" />
-      <Skeleton variant="text" height={24} className="mb-1" />
-      <Skeleton variant="text" height={24} width="60%" />
-      <div className="mt-2">
-        <Skeleton variant="rectangular" height={36} width="40%" />
-      </div>
-    </div>
-  );
-};
-
-const LoadingGrid = () => {
-  return (
-    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mdl:gap-4 lg:gap-10">
-      {[1, 2, 3, 4, 5, 6].map((item) => (
-        <ProductSkeleton key={item} />
-      ))}
-    </div>
-  );
-};
-
 const Pagination = ({ itemsPerPage, sortOrder }) => {
   const [products, setProducts] = useState([]);
   const [itemOffset, setItemOffset] = useState(0);
@@ -105,8 +86,6 @@ const Pagination = ({ itemsPerPage, sortOrder }) => {
           fetchedProducts.sort((a, b) => b.price - a.price);
         }
         setProducts(fetchedProducts);
-      } catch (error) {
-        console.error('Error fetching products:', error);
       } finally {
         setIsLoading(false);
       }
@@ -167,7 +146,7 @@ const Pagination = ({ itemsPerPage, sortOrder }) => {
   return (
     <div>
       {isLoading ? (
-        <LoadingGrid />
+        <LoadingSpinner />
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mdl:gap-4 lg:gap-10">
           <Items currentItems={currentItems} discountSuggestions={discountSuggestions} />
