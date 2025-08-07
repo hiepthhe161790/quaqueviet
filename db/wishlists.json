@@ -1,0 +1,16 @@
+{
+  "_id": { "$oid": "666f8a9b8e4d3c1f2b8f8ba0"},
+  "userId": { "$oid": "666f8a9b8e4d3c1f2b8f8b9e"},
+  "items": [
+    {
+      "productId": "666f8a9b8e4d3c1f2b8f8b91",
+      "color": "Nâu"
+    },
+    {
+      "productId": "666f8a9b8e4d3c1f2b8f8b92",
+      "color": "Vàng"
+    }
+  ],
+  "createdAt": "2025-06-16T11:00:00.000Z"
+}
+

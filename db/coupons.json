@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "688a7b2e275897208910f73e"
+  },
+  "code": "MSIABCD123",
+  "type": "amount",
+  "value": 25000,
+  "minOrderValue": 55000,
+  "maxDiscount": null,
+  "productIds": [],
+  "usageLimit": null,
+  "usedCount": 0,
+  "isActive": true,
+  "expiryDate": {
+    "$date": "2025-08-01T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-30T20:06:06.125Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-30T20:19:22.001Z"
+  },
+  "__v": 0
+}]

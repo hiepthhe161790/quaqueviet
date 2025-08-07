@@ -1,0 +1,125 @@
+.checkout-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkout-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .checkout-left,
+  .checkout-right {
+    flex: 1;
+  }
+  
+  .billing-details,
+  .shipping-method,
+  .payment-method,
+  .order-summary {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .billing-details h2,
+  .shipping-method h2,
+  .payment-method h2,
+  .order-summary h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .billing-form input,
+  .location-select select,
+  .payment-option input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .location-select {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .order-summary .order-items {
+    margin-bottom: 20px;
+  }
+  
+  .order-summary .order-total p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .discount-code {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .discount-code input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .discount-code button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .place-order-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .empty-cart {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .empty-cart-content {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .empty-cart-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .empty-cart-content p {
+    margin-bottom: 20px;
+  }
+  
+  .continue-shopping-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  

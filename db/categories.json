@@ -1,0 +1,32 @@
+[
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c22"},
+    "name": "nem - chả - tré",
+    "description": "Các loại nem, chả, tré đặc sản lên men tự nhiên, hương vị truyền thống đậm đà.",
+    "thumbnails": "https://example.com/images/thumbnails/cat-nem-cha-tre.jpg"
+  },
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c23"},
+    "name": "bánh - kẹo đặc sản",
+    "description": "Tuyển tập các loại bánh, kẹo ngọt đặc sản từ các làng nghề truyền thống trên cả nước.",
+    "thumbnails": "https://example.com/images/thumbnails/cat-banh-keo.jpg"
+  },
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c24"},
+    "name": "đồ ăn vặt khô",
+    "description": "Các món ăn vặt giòn rụm, đậm vị như cơm cháy, bánh nướng, phù hợp cho mọi lứa tuổi.",
+    "thumbnails": "https://example.com/images/thumbnails/cat-an-vat-kho.jpg"
+  },
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c25"},
+    "name": "gia vị đặc sản",
+    "description": "Các loại muối chấm, gia vị độc đáo làm nên linh hồn cho nhiều món ăn Việt.",
+    "thumbnails": "https://example.com/images/thumbnails/cat-gia-vi.jpg"
+  },
+  {
+  "_id": { "$oid": "666f8a9b8e4d3c1f2b8f8b8c"},
+  "name": "bánh kẹo",
+  "description": "Tổng hợp các loại bánh kẹo, mứt đặc sản từ khắp các vùng miền Việt Nam, phù hợp làm quà biếu hoặc thưởng thức.",
+  "thumbnails": "https://example.com/images/thumbnails/danh-muc-banh-keo.jpg"
+  }
+]

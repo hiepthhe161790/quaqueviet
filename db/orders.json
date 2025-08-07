@@ -1,0 +1,32 @@
+{
+  "_id": { "$oid": "666f8a9b8e4d3c1f2b8f8b8d"},
+  "userId": { "$oid": "666f8a9b8e4d3c1f2b8f8b9e"},
+  "items": [
+    {
+      "productId": { "$oid": "666f8a9b8e4d3c1f2b8f8b90"},
+      "quantity": 2,
+      "salePrice": 65000,
+      "saleCase": 45000,
+      "color": "Vàng"
+    }
+  ],
+  "totalPrice": 130000,
+  "shippingFee": 25000,
+  "orderStatus": "Delivered",
+  "paymentStatus": "Completed",
+  "paymentMethod": "VnPay",
+  "paymentDetails": {
+    "transactionId": "VN123456789",
+    "orderCode": "1718598600",
+    "paymentLinkId": "plink_abc123",
+    "paymentTime": "2025-06-17T12:40:00.000Z"
+  },
+  "contactInfo": {
+    "name": "Nguyễn Văn A",
+    "email": "nguyenvana@example.com",
+    "phone": "0987654321",
+    "address": "123 Đường ABC, Phường XYZ, Quận 1, TP. Hồ Chí Minh"
+  },
+  "createdAt": "2025-06-17T12:38:00.000Z"
+}
+

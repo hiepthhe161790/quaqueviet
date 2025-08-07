@@ -1,0 +1,1 @@
+File này lưu ảnh upload theo <filname>.<đuôi mở rộng>

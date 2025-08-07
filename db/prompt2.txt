@@ -1,0 +1,105 @@
+Ok tôi cần cập nhật thêm một số data
+
+- Tạo cho tôi 8 tài khoản, 5 users, 2 sales managers và 1 admin
+- Tôi có một số sản phẩm ở đây, bạn hãy cập nhật các data mới giúp tôi. Mỗi "brand <số thứ tự>" là một brand bạn có thể tự tạo tên & description
+
+* brand 1
+- Product: Nem Chua Thanh Hóa
++ Price: 50000,00
++ Description: Nem chua là món ăn truyền thống Việt Nam được làm từ thịt lợn xay nhuyễn, trộn với bì, tỏi, tiêu, ớt và các gia vị, sau đó lên men tự nhiên tạo nên vị chua nhẹ, giòn dai, thơm ngon. Nem thường được gói trong lá chuối và dùng làm món khai vị hoặc nhắm với bia, rượu.
++ Quantity: 300
++ Image: 
+
+- Product: Tré
++ Price: 35000,00
++ Description: Tré là món ăn truyền thống độc đáo của miền Trung Việt Nam, đặc biệt phổ biến ở các tỉnh như Bình Định, Huế và Đà Nẵng. Đây là món gỏi thịt lên men, kết hợp giữa các nguyên liệu như thịt heo, da heo, tai heo, được trộn đều với riềng, mè, tỏi, thính và gia vị, rồi ủ lên men nhẹ, tạo nên hương vị chua thanh, giòn sật, thơm nồng rất hấp dẫn.
++ Quantity: 100
++ Image: images/AT533.jpg
+
+- Product: Nem Bùi
++ Price: 35000,00
++ Description: Nem Bùi được làm từ thịt lợn tươi, bì lợn thái mảnh, trộn đều với thính gạo rang, tỏi, ớt, lá sung và các loại gia vị, sau đó được gói bằng lá chuối tươi. Nem có vị chua nhẹ, thơm bùi, ăn kèm với lá đinh lăng hoặc lá sung rất hấp dẫn.
++ Quantity: 100
++ Image: images/AT536.png
+
+- Product: Bánh Đậu Xanh(nhỏ)
++ Price: 30000,00
++ Description: Bánh đậu xanh có màu vàng nhạt, vị ngọt thanh, thơm bùi, tan ngay trong miệng. Bánh thường được đóng thành viên nhỏ hình vuông, gói trong giấy bóng kính hoặc hộp thiếc, rất thích hợp để thưởng trà hoặc làm quà biếu.
++ Quantity: 100
++ Image: images/hoodie1.jpg
+
+- Product: Kẹo sìu châu
++ Price: 20000,00
++ Description: Kẹo sìu châu là loại kẹo truyền thống có nguồn gốc từ Trung Quốc, du nhập vào Việt Nam và được người dân Phú Liêm gìn giữ, phát triển theo công thức riêng. Kẹo ở đây có hương vị đặc trưng và chất lượng cao, được nhiều người yêu thích, đặc biệt là vào dịp Tết hoặc làm quà biếu.
++ Quantity: 100
++ Image: images/H1007.jpg
+
+* brand 2
+- Product: Muối tôm cay loại 1 500g/gói
++ Price: 40000,00
++ Description: Muối tôm cay loại 1 (500g) là loại muối đặc sản nổi tiếng của miền Tây và Tây Nguyên, đặc biệt là Tây Ninh – nơi được mệnh danh là “thủ phủ muối tôm”. Sản phẩm được chế biến từ muối hột nguyên chất, tôm khô loại thượng hạng, ớt tươi xay nhuyễn và gia vị tự nhiên, tạo nên hương vị đậm đà, cay nồng, thơm ngon khó cưỡng.
++ Quantity: 100
++ Image: images/H12.jpg
+
+- Product: Bánh dừa nướng truyền thống 200g/gói
++ Price: 25000,00
++ Description: Bánh dừa nướng truyền thống là món đặc sản dân dã, bắt nguồn từ các tỉnh ven biển miền Trung và miền Nam, đặc biệt là Bến Tre – quê hương của những rặng dừa trù phú. Bánh được làm từ cơm dừa tươi kết hợp với bột nếp, đường và sữa, rồi mang đi nướng giòn thủ công, tạo nên hương vị mộc mạc, giòn rụm, thơm béo rất đặc trưng.
++ Quantity: 50
++ Image: images/H13.jpg
+
+- Product: Cơm cháy chà bông mắm hành
++ Price: 70000,00
++ Description: Cơm cháy chà bông mắm hành là món ăn vặt hấp dẫn, kết hợp hoàn hảo giữa cơm cháy giòn tan, chà bông heo tơi mịn, và nước mắm hành thơm nồng. Đây là món ngon “gây nghiện” không chỉ với giới trẻ mà cả người lớn cũng mê, thường xuyên xuất hiện trong các buổi gặp mặt, liên hoan hay đơn giản là món ăn vặt tại nhà.
++ Quantity: 50
++ Image: images/H15.jpg
+
+- Product: Cơm cháy mắm tỏi ớt
++ Price: 65000,00
++ Description: Cơm cháy mắm tỏi ớt là món ăn vặt khoái khẩu với sự kết hợp bùng nổ giữa cơm cháy giòn tan và sốt mắm tỏi ớt đậm đà, cay nồng. Mỗi miếng cơm cháy được áo đều bởi lớp sốt thơm lừng, kích thích mọi giác quan, khiến bạn ăn một lần là nhớ mãi!
++ Quantity: 50
++ Image: images/H16.jpg
+
+* brand 3
+- Product: Kẹo Cu đơ( Loại trắng 1 hộp 600gram)
++ Price: 60000,00
++ Description: Kẹo Cu Đơ Trắng là phiên bản thanh ngọt hơn của đặc sản kẹo cu đơ Hà Tĩnh – món quà quê gắn liền với vùng đất miền Trung đầy nắng gió. Không dùng mật mía như cu đơ truyền thống, cu đơ trắng được làm từ đường tinh luyện, kết hợp với lạc rang giòn, gừng tươi, và bánh tráng mỏng tạo nên hương vị nhẹ nhàng, dễ ăn, phù hợp với mọi lứa tuổi.
++ Quantity: 50
++ Image: images/H17.jpg
+
+- Product: Kẹo Cu đơ(Loại đen 1 hộp 900gram)
++ Price: 105000,00
++ Description: Kẹo cu đơ đen là phiên bản nguyên gốc và truyền thống nhất của đặc sản kẹo cu đơ xứ Nghệ – Hà Tĩnh. Loại "đen" ở đây không phải do màu cháy, mà vì được làm từ mật mía nguyên chất, khi nấu lên có màu nâu cánh gián đậm đặc trưng. Sự kết hợp giữa mật mía, lạc rang, gừng tươi và bánh tráng tạo nên hương vị đậm đà, nồng nàn, mộc mạc đúng chất miền Trung.
++ Quantity: 50
++ Image: images/H18.jpg
+
+* brand 4
+- Product: Bánh dừa non(Tròn)
++ Price: 25000,00
++ Description: Tròn vị( xoài, sầu riêng, cà phê, sữa dừa, là dứa). Bánh dừa non Tròn Vị là dòng bánh dừa hiện đại, kết hợp giữa cơm dừa non mềm dẻo và các hương vị trái cây – cà phê – sữa đặc trưng, tạo nên những chiếc bánh tròn xinh, thơm béo, ngọt dịu. Mỗi miếng bánh là một trải nghiệm hương vị khác nhau, phù hợp làm quà tặng hoặc ăn vặt hằng ngày.
++ Quantity: 50
++ Image: images/H19.jpg
+
+- Product: Bánh dừa non(Vuông)
++ Price: 30000,00
++ Description: Vuông vị( xoài, sầu riêng, cà phê, sữa dừa, là dứa). Bánh dừa non vuông vị là dòng bánh dẻo thơm hiện đại, được tạo hình vuông nhỏ xinh, kết hợp cùng cơm dừa non béo ngậy và 5 hương vị tự nhiên đầy hấp dẫn. Bánh có kết cấu mềm dẻo vừa phải, không dính tay, dễ ăn – thích hợp cho mọi lứa tuổi và mọi dịp.
++ Quantity: 50
++ Image: images/H20.jpg
+
+- Product: Bánh sữa Ba Vì(Nguyên Vị)
++ Price: 25000,00
++ Description: Bánh sữa Ba Vì nguyên vị là một trong những đặc sản nổi tiếng của huyện Ba Vì, Hà Nội – vùng đất được mệnh danh là “thiên đường bò sữa”. Sản phẩm được làm từ nguồn sữa tươi nguyên chất, mang hương vị thơm ngon, mềm mịn, béo ngậy đặc trưng không thể nhầm lẫn.
++ Quantity: 100
++ Image: images/H3.jpg
+
+- Product: Bánh sữa Ba Vì (Socola)
++ Price: 30000,00
++ Description: Bánh sữa Ba Vì vị socola là phiên bản biến tấu từ dòng bánh sữa truyền thống nguyên vị, kết hợp giữa sữa bò tươi nguyên chất và socola nguyên chất thơm lừng. Sản phẩm vừa giữ được độ béo ngậy đặc trưng của sữa Ba Vì, vừa mang hương vị ngọt đậm, quyến rũ của socola – rất được lòng giới trẻ và trẻ em.
++ Quantity: 100
++ Image: images/H4.jpg
+
+- Product: Bánh tráng phơi sương 1kg
++ Price: 38000,00
++ Description: Bánh tráng phơi sương là đặc sản trứ danh của vùng Trảng Bàng – Tây Ninh, nổi bật với độ dẻo, mềm, thơm và dễ cuốn. Khác với bánh tráng nướng hoặc bánh tráng khô thông thường, loại bánh này được tráng thủ công, phơi nắng và "hấp sương" qua đêm, tạo nên hương vị mộc mạc, tinh tế, rất được ưa chuộng trong các món cuốn truyền thống.
++ Quantity: 20
++ Image: images/H9.jpg
+

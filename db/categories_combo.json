@@ -1,0 +1,8 @@
+[
+  {
+    "_id": { "$oid": "687ee4cb45e8e5df22e218c0"},
+    "name": "gói combo",
+    "description": "Các gói combo của trang.",
+    "thumbnails": "https://example.com/images/thumbnails/goi-combo.jpg"
+  }
+]

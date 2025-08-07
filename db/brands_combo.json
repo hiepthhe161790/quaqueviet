@@ -1,0 +1,9 @@
+[
+  {
+    "_id": { "$oid": "687ee53745e8e5df22e218c3" },
+    "name": "Qùa Quê Việt",
+    "description": "Khám phá các gói combo do chính đội ngũ của Quà Quê Việt chuẩn bị!",
+    "thumbnails": "https://example.com/images/thumbnails/qua-que-viet.jpg"
+  }
+]
+

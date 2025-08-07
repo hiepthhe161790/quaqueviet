@@ -1,0 +1,82 @@
+tôi có một dự án bán đặc sản vùng miền Việt Nam và đang cần phải làm một database mẫu cho backend sử dụng MongoDB. Đây là những collection trong dự án, dựa vào các model của tôi. Hãy tạo mỗi collection một entity và để nó vào một file json.
+- Brand
++ name (String, unique, lowercase, required, 20 characters limit)
++ description (String, 200 characters limit)
++ thumbnails (String)
+- Cart
++ userId (ObjectId ref User, required)
++ items
+++ productId (ObjectId ref Product, required)
+++ quantity (Number, required)
+++ color (String, required)
+- Category
++ name (String, lowercase, required, 20 characters limit)
++ description (String, 200 characters limit)
++ thumbnails (String)
+- Order
++ userId (ObjectId ref User)
++ items 
+++ productId (ObjectId ref Product, required)
+++ quantity (Number, required)
+++ salePrice (Number)
+++ saleCase (Number, đây là chi phí tạo món đồ tại thời điểm bán)
+++ color (String, required)
++ totalPrice (Number)
++ shippingFee (Number, required)
++ orderStatus (String, enum: ['Pending', 'Processing', 'Shipped', 'Delivered', 'Cancelled'], required )
++ paymentStatus (String, enum: ['Pending', 'Completed', 'Failed', 'Refunded'], required)
++ paymentMethod (String, enum: ['Credit Card', 'PayPal', 'VnPay', 'Cash On Delivery', 'PayOS'], required)
++ paymentDetails (transactionId: String, orderCode: String, paymentLinkId: String, paymentTime: Date)
++ contactInfo (name: { String, required }, email: { String, required }, phone: { String, required }, address: { String, required })
+- Product
++ name (String, unique, lowercase, required, 100 characters limit)
++ brand (ObjectId ref Brand, required)
++ category (ObjectId ref Category, required)
++ description (String)
++ images
+++ filename (String)
+++ path (String)
+++ mimetype (String)
+++ size (Number)
++ specs
+++ key (String)
+++ value (String)
++ price (Number)
++ cost (Number, đây là chi phí nhập hàng)
++ isAvailable (Boolean)
++ isDeleted (Boolean)
++ inStock
+++ color (String, required)
+++ quantity (Number)
+++ size (String)
+++ price (Number, required)
+- Review
++ productId (ObjectId ref Product)
++ userId (ObjectId ref User)
++ rating (Number, required, min: 1, max: 5)
++ comment (String, required)
+- Transaction
++ orderId (ObjectId ref Order)
++ amount (Number, required)
++ bankCode (String)
++ orderDescription (String)
++ orderType (String)
++ language (String)
++ paymentStatus (String, enum: ['Pending', 'Success', 'Failed'])
++ paymentTime (Date)
+- User
++ email (String, required, unique, lowercase)
++ passwordToken (String, encrypted with bcrypt with salt round 10)
++ fullName (String)
++ address (String)
++ phoneNumber (String)
++ role (String, enum: ['customer', 'admin', 'sales manager'])
++ otp (String)
++ otpExpires (Date)
++ isVerified (Boolean)
++ refreshToken (String)
+- Wishlist
++ userId (ObjectId ref User)
++ items
+++ productId (ObjectId ref Product, required)
+++ color (String, requied)

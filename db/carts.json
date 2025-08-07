@@ -1,0 +1,18 @@
+{
+  "_id": { "$oid": "666f8a9b8e4d3c1f2b8f8b8b" },
+  "userId": { "$oid": "666f8a9b8e4d3c1f2b8f8b9e"},
+  "items": [
+    {
+      "productId": "666f8a9b8e4d3c1f2b8f8b90",
+      "quantity": 2,
+      "color": "Vàng"
+    },
+    {
+      "productId": "666f8a9b8e4d3c1f2b8f8b91",
+      "quantity": 1,
+      "color": "Nâu"
+    }
+  ],
+  "createdAt": "2025-06-17T12:30:00.000Z",
+  "updatedAt": "2025-06-17T12:35:00.000Z"
+}

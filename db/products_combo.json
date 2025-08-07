@@ -1,0 +1,272 @@
+[
+  {
+    "_id": { "$oid": "687ee74f45e8e5df22e218c5" },
+    "name": "Combo 1",
+    "brand": { "$oid": "687ee53745e8e5df22e218c3" },
+    "category": { "$oid": "687ee4cb45e8e5df22e218c0" },
+    "description": "Trong combo bao gồm: Bánh đậu xanh Hữu Bình(loại to), Nem bùi Bắc Ninh, Nem chua, Bánh Pía mini trứng chảy, cá thiều nướng, Nem tai ",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "2kg",
+        "_id": { "$oid": "a10000000000000000000001" }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "Gói - 1 gói",
+        "quantity": 10,
+        "price": 260000,
+        "_id": { "$oid": "a10000000000000000000002" }
+      }
+    ],
+    "images": [{"filename": "Combo1.jpg", "path": "/images/Combo1.jpg", "mimetype": "image/jpeg", "size": 12345}],
+    "__v": 1,
+    "createdAt": { "$date": "2025-07-17T10:00:00.000Z" },
+    "updatedAt": { "$date": "2025-08-01T13:20:00.000Z" },
+    "expiryDate": { "$date": "2025-09-17T23:59:59.000Z" },
+    "importDate": { "$date": "2025-07-17T11:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "687ee76a45e8e5df22e218c6" },
+    "name": "Combo2",
+    "brand": { "$oid": "687ee53745e8e5df22e218c3" },
+    "category": { "$oid": "687ee4cb45e8e5df22e218c0" },
+    "description": "Trong combo bao gồm: Bánh sữa Ba Vì nguyên vị, Muối tôm Tây Ninh, Bánh đậu xanh nhỏ ,Cá thiều nướng ,Xí muội mận.",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "2kg",
+        "_id": { "$oid": "a20000000000000000000001" }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "Gói - 1 gói",
+        "quantity": 10,
+        "price": 250000,
+        "_id": { "$oid": "a20000000000000000000002" }
+      }
+    ],
+    "images": [{"filename": "Combo2.jpg", "path": "/images/Combo2.jpg", "mimetype": "image/jpeg", "size": 12345}],
+    "__v": 1,
+    "createdAt": { "$date": "2025-07-18T10:00:00.000Z" },
+    "updatedAt": { "$date": "2025-08-01T13:25:00.000Z" },
+    "expiryDate": { "$date": "2025-09-18T23:59:59.000Z" },
+    "importDate": { "$date": "2025-07-18T11:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "687ee77445e8e5df22e218c7" },
+    "name": "Combo3",
+    "brand": { "$oid": "687ee53745e8e5df22e218c3" },
+    "category": { "$oid": "687ee4cb45e8e5df22e218c0" },
+    "description": "Trong combo bao gồm: Bánh dừa non mix vị , Nem bùi ,Nem tai ,Muối tôm cay Tây Ninh ,Kẹo sìu châu ,Thịt chua ",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "2kg",
+        "_id": { "$oid": "a30000000000000000000001" }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "Gói - 1 gói",
+        "quantity": 10,
+        "price": 180000,
+        "_id": { "$oid": "a30000000000000000000002" }
+      }
+    ],
+    "images": [{"filename": "Combo3.jpg", "path": "/images/Combo3.jpg", "mimetype": "image/jpeg", "size": 12345}],
+    "__v": 1,
+    "createdAt": { "$date": "2025-07-19T10:00:00.000Z" },
+    "updatedAt": { "$date": "2025-08-01T13:30:00.000Z" },
+    "expiryDate": { "$date": "2025-09-19T23:59:59.000Z" },
+    "importDate": { "$date": "2025-07-19T11:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "687ee77b45e8e5df22e218c8" },
+    "name": "Combo4",
+    "brand": { "$oid": "687ee53745e8e5df22e218c3" },
+    "category": { "$oid": "687ee4cb45e8e5df22e218c0" },
+    "description": "Trong combo bao gồm: Nem chua ,Bánh Pía Sầu riêng ,Ô mai gói ,Bánh dừa nướng ,Muối tôm cay, Thịt chua ",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "2kg",
+        "_id": { "$oid": "a40000000000000000000001" }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "Gói - 1 gói",
+        "quantity": 10,
+        "price": 200000,
+        "_id": { "$oid": "a40000000000000000000002" }
+      }
+    ],
+    "images": [{"filename": "Combo4.jpg", "path": "/images/Combo4.jpg", "mimetype": "image/jpeg", "size": 12345}],
+    "__v": 1,
+    "createdAt": { "$date": "2025-07-20T10:00:00.000Z" },
+    "updatedAt": { "$date": "2025-08-01T13:35:00.000Z" },
+    "expiryDate": { "$date": "2025-09-20T23:59:59.000Z" },
+    "importDate": { "$date": "2025-07-20T11:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "687ee78245e8e5df22e218c9" },
+    "name": "Combo5",
+    "brand": { "$oid": "687ee53745e8e5df22e218c3" },
+    "category": { "$oid": "687ee4cb45e8e5df22e218c0" },
+    "description": "Đồ ăn gọn nhẹ – phù hợp picnic, đi xe, chill tại homestay. Trong combo bao gồm: Bánh sữa Ba Vì socola ,Cá thiều nướng ,Bánh đậu xanh nhỏ ,Bánh dừa non tròn vị ,Cơm cháy ",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "2kg",
+        "_id": { "$oid": "a50000000000000000000001" }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "Gói - 1 gói",
+        "quantity": 10,
+        "price": 219000,
+        "_id": { "$oid": "a50000000000000000000002" }
+      }
+    ],
+    "images": [{"filename": "Combo5.jpg", "path": "/images/Combo5.jpg", "mimetype": "image/jpeg", "size": 12345}],
+    "__v": 1,
+    "createdAt": { "$date": "2025-07-21T10:00:00.000Z" },
+    "updatedAt": { "$date": "2025-08-01T13:40:00.000Z" },
+    "expiryDate": { "$date": "2025-09-21T23:59:59.000Z" },
+    "importDate": { "$date": "2025-07-21T11:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "687ee78a45e8e5df22e218ca" },
+    "name": "Combo6",
+    "brand": { "$oid": "687ee53745e8e5df22e218c3" },
+    "category": { "$oid": "687ee4cb45e8e5df22e218c0" },
+    "description": "Trong combo bao gồm: Bánh mì que ,Hũ mứt dâu hoặc mứt cam ,Sữa chua Ba Vì ,Cà phê hòa tan ,Bánh mì đen, cơm cháy mini",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "2kg",
+        "_id": { "$oid": "a60000000000000000000001" }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "Gói - 1 gói",
+        "quantity": 10,
+        "price": 160000,
+        "_id": { "$oid": "a60000000000000000000002" }
+      }
+    ],
+    "images": [{"filename": "Combo6.jpg", "path": "/images/Combo6.jpg", "mimetype": "image/jpeg", "size": 12345}],
+    "__v": 1,
+    "createdAt": { "$date": "2025-07-22T10:00:00.000Z" },
+    "updatedAt": { "$date": "2025-08-01T13:45:00.000Z" },
+    "expiryDate": { "$date": "2025-09-22T23:59:59.000Z" },
+    "importDate": { "$date": "2025-07-22T11:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "687ee79145e8e5df22e218cb" },
+    "name": "Combo7",
+    "brand": { "$oid": "687ee53745e8e5df22e218c3" },
+    "category": { "$oid": "687ee4cb45e8e5df22e218c0" },
+    "description": "Trong combo bao gồm: Bánh mì que ,Hũ mứt dâu hoặc mứt cam ,Sữa chua Ba Vì ,Cà phê hòa tan ,Bánh mì đen, cơm cháy mini",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "2kg",
+        "_id": { "$oid": "a70000000000000000000001" }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "Gói - 1 gói",
+        "quantity": 10,
+        "price": 170000,
+        "_id": { "$oid": "a70000000000000000000002" }
+      }
+    ],
+    "images": [{"filename": "Combo7.jpg", "path": "/images/Combo7.jpg", "mimetype": "image/jpeg", "size": 12345}],
+    "__v": 1,
+    "createdAt": { "$date": "2025-07-23T10:00:00.000Z" },
+    "updatedAt": { "$date": "2025-08-01T13:50:00.000Z" },
+    "expiryDate": { "$date": "2025-09-23T23:59:59.000Z" },
+    "importDate": { "$date": "2025-07-23T11:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "687ee79945e8e5df22e218cc" },
+    "name": "Combo8",
+    "brand": { "$oid": "687ee53745e8e5df22e218c3" },
+    "category": { "$oid": "687ee4cb45e8e5df22e218c0" },
+    "description": "Trong combo bao gồm: nem chua, ô mai sấu, khoai lang giòn, bánh mì đen",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "2kg",
+        "_id": { "$oid": "a80000000000000000000001" }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "Gói - 1 gói",
+        "quantity": 10,
+        "price": 150000,
+        "_id": { "$oid": "a80000000000000000000002" }
+      }
+    ],
+    "images": [{"filename": "Combo8.jpg", "path": "/images/Combo8.jpg", "mimetype": "image/jpeg", "size": 12345}],
+    "__v": 1,
+    "createdAt": { "$date": "2025-07-24T10:00:00.000Z" },
+    "updatedAt": { "$date": "2025-08-01T13:55:00.000Z" },
+    "expiryDate": { "$date": "2025-09-24T23:59:59.000Z" },
+    "importDate": { "$date": "2025-07-24T11:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "687ee7a145e8e5df22e218cd" },
+    "name": "Combo9",
+    "brand": { "$oid": "687ee53745e8e5df22e218c3" },
+    "category": { "$oid": "687ee4cb45e8e5df22e218c0" },
+    "description": "Trong combo bao gồm: Nem chua, nem bùi, cá thiều nướng, bánh mì que, bánh mì đen",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "2kg",
+        "_id": { "$oid": "a90000000000000000000001" }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "Gói - 1 gói",
+        "quantity": 10,
+        "price": 150000,
+        "_id": { "$oid": "a90000000000000000000002" }
+      }
+    ],
+    "images": [{"filename": "Combo9.jpg", "path": "/images/Combo9.jpg", "mimetype": "image/jpeg", "size": 12345}],
+    "__v": 1,
+    "createdAt": { "$date": "2025-07-25T10:00:00.000Z" },
+    "updatedAt": { "$date": "2025-08-01T14:00:00.000Z" },
+    "expiryDate": { "$date": "2025-09-25T23:59:59.000Z" },
+    "importDate": { "$date": "2025-07-25T11:00:00.000Z" }
+  }
+]

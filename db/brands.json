@@ -1,0 +1,33 @@
+[
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c26" },
+    "name": "đặc sản đất bắc",
+    "description": "Thương hiệu quy tụ tinh hoa ẩm thực miền Bắc với các món nem, bánh kẹo trứ danh từ Thanh Hóa, Hải Dương, Nam Định.",
+    "thumbnails": "https://example.com/images/thumbnails/brand-dat-bac.jpg"
+  },
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c27" },
+    "name": "hương vị phương nam",
+    "description": "Mang đến những đặc sản đậm chất miền Tây và Nam Bộ, từ món ăn vặt giòn tan đến gia vị đậm đà.",
+    "thumbnails": "https://example.com/images/thumbnails/brand-phuong-nam.jpg"
+  },
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c28" },
+    "name": "cu đơ hà tĩnh",
+    "description": "Thương hiệu chuyên sản xuất kẹo cu đơ, đặc sản nồng ấm của Hà Tĩnh, với công thức gia truyền.",
+    "thumbnails": "https://example.com/images/thumbnails/brand-cu-do.jpg"
+  },
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c29" },
+    "name": "quà tặng quê hương",
+    "description": "Tuyển tập các loại bánh đặc sản từ Ba Vì, Tây Ninh và các vùng miền khác, thích hợp làm quà biếu ý nghĩa.",
+    "thumbnails": "https://example.com/images/thumbnails/brand-qua-tang-que-huong.jpg"
+  },
+  {
+  "_id": { "$oid": "666f8a9b8e4d3c1f2b8f8b8a" },
+  "name": "bánh pía sầu riêng",
+  "description": "Thương hiệu bánh pía nổi tiếng từ Sóc Trăng với hương vị sầu riêng đậm đà, vỏ bánh mềm xốp và nhân đậu xanh ngọt bùi.",
+  "thumbnails": "https://example.com/images/thumbnails/banh-pia-soc-trang.jpg"
+  }
+]
+

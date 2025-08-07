@@ -1,0 +1,12 @@
+{
+  "_id": { "$oid": "666f8a9b8e4d3c1f2b8f8b98"},
+  "orderId": { "$oid": "666f8a9b8e4d3c1f2b8f8b8d"},
+  "amount": 155000,
+  "bankCode": "VNBANK",
+  "orderDescription": "Thanh toan don hang #1718598600",
+  "orderType": "billpayment",
+  "language": "vn",
+  "paymentStatus": "Success",
+  "paymentTime": "2025-06-17T12:40:00.000Z"
+}
+

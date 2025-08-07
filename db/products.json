@@ -1,0 +1,958 @@
+[
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c2a"
+    },
+    "name": "nem chua thanh hóa",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c26"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c22"
+    },
+    "description": "Nem chua là món ăn truyền thống Việt Nam được làm từ thịt lợn xay nhuyễn, trộn với bì, tỏi, tiêu, ớt và các gia vị, sau đó lên men tự nhiên tạo nên vị chua nhẹ, giòn dai, thơm ngon. Nem thường được gói trong lá chuối và dùng làm món khai vị hoặc nhắm với bia, rượu.",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "200g / 10 chiếc",
+        "_id": {
+          "$oid": "688f99eba28a5320aa0db15c"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": " 10 chiếc",
+        "quantity": 300,
+        "price": 50000,
+        "_id": {
+          "$oid": "688f99f4a28a5320aa0db15d"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "nem-chua.jpg",
+        "path": "/images/nem-chua.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-01T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T12:00:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2025-09-15T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-01T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c2b"
+    },
+    "name": "tré",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c26"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c22"
+    },
+    "description": "Tré là món ăn truyền thống độc đáo của miền Trung Việt Nam, đặc biệt phổ biến ở các tỉnh như Bình Định, Huế và Đà Nẵng. Đây là món gỏi thịt lên men, kết hợp giữa các nguyên liệu như thịt heo, da heo, tai heo, được trộn đều với riềng, mè, tỏi, thính và gia vị, rồi ủ lên men nhẹ, tạo nên hương vị chua thanh, giòn sật, thơm nồng rất hấp dẫn.",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "1 cây",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c2b01"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": " 1 cây",
+        "quantity": 100,
+        "price": 35000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c2b02"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "AT533.jpg",
+        "path": "images/AT533.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-01T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T12:00:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2025-09-10T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-01T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c2c"
+    },
+    "name": "nem bùi",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c26"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c22"
+    },
+    "description": "Nem Bùi được làm từ thịt lợn tươi, bì lợn thái mảnh, trộn đều với thính gạo rang, tỏi, ớt, lá sung và các loại gia vị, sau đó được gói bằng lá chuối tươi. Nem có vị chua nhẹ, thơm bùi, ăn kèm với lá đinh lăng hoặc lá sung rất hấp dẫn.",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "1 gói/350g",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c2c01"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "1 gói",
+        "quantity": 100,
+        "price": 35000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c2c02"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "AT536.png",
+        "path": "images/AT536.png",
+        "mimetype": "image/png",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-02T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T12:05:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2025-08-20T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-02T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c2d"
+    },
+    "name": "bánh đậu xanh(nhỏ)",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c26"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c23"
+    },
+    "description": "Bánh đậu xanh có màu vàng nhạt, vị ngọt thanh, thơm bùi, tan ngay trong miệng. Bánh thường được đóng thành viên nhỏ hình vuông, gói trong giấy bóng kính hoặc hộp thiếc, rất thích hợp để thưởng trà hoặc làm quà biếu.",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "200g",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c2d01"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "  Hộp nhỏ",
+        "quantity": 100,
+        "price": 30000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c2d02"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "hoodie1.jpg",
+        "path": "images/hoodie1.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-03T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T12:10:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2026-01-15T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-03T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c2e"
+    },
+    "name": "kẹo sìu châu",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c26"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c23"
+    },
+    "description": "Kẹo sìu châu là loại kẹo truyền thống có nguồn gốc từ Trung Quốc, du nhập vào Việt Nam và được người dân Phú Liêm gìn giữ, phát triển theo công thức riêng. Kẹo ở đây có hương vị đặc trưng và chất lượng cao, được nhiều người yêu thích, đặc biệt là vào dịp Tết hoặc làm quà biếu.",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "200g",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c2e01"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "  Gói",
+        "quantity": 100,
+        "price": 20000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c2e02"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "H1007.jpg",
+        "path": "images/H1007.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-04T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T12:15:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2025-12-31T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-04T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c2f"
+    },
+    "name": "muối tôm cay loại 1 500g/gói",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c27"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c25"
+    },
+    "description": "Muối tôm cay loại 1 (500g) là loại muối đặc sản nổi tiếng của miền Tây và Tây Nguyên, đặc biệt là Tây Ninh – nơi được mệnh danh là “thủ phủ muối tôm”. Sản phẩm được chế biến từ muối hột nguyên chất, tôm khô loại thượng hạng, ớt tươi xay nhuyễn và gia vị tự nhiên, tạo nên hương vị đậm đà, cay nồng, thơm ngon khó cưỡng.",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "500g",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c2f01"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "  500g/gói",
+        "quantity": 100,
+        "price": 40000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c2f02"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "H12.jpg",
+        "path": "images/H12.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-05T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T12:20:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2026-07-05T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-05T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c30"
+    },
+    "name": "bánh dừa nướng truyền thống 200g/gói",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c27"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c24"
+    },
+    "description": "Bánh dừa nướng truyền thống là món đặc sản dân dã, bắt nguồn từ các tỉnh ven biển miền Trung và miền Nam, đặc biệt là Bến Tre – quê hương của những rặng dừa trù phú. Bánh được làm từ cơm dừa tươi kết hợp với bột nếp, đường và sữa, rồi mang đi nướng giòn thủ công, tạo nên hương vị mộc mạc, giòn rụm, thơm béo rất đặc trưng.",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "200g",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3001"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "  200g/gói",
+        "quantity": 50,
+        "price": 25000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3002"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "H13.jpg",
+        "path": "images/H13.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-06T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T12:25:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2026-01-06T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-06T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c31"
+    },
+    "name": "cơm cháy chà bông mắm hành",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c27"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c24"
+    },
+    "description": "Cơm cháy chà bông mắm hành là món ăn vặt hấp dẫn, kết hợp hoàn hảo giữa cơm cháy giòn tan, chà bông heo tơi mịn, và nước mắm hành thơm nồng. Đây là món ngon “gây nghiện” không chỉ với giới trẻ mà cả người lớn cũng mê, thường xuyên xuất hiện trong các buổi gặp mặt, liên hoan hay đơn giản là món ăn vặt tại nhà.",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "300g",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3101"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "  Hộp 300g",
+        "quantity": 50,
+        "price": 70000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3102"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "H15.jpg",
+        "path": "images/H15.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-07T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T12:30:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2025-10-07T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-07T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c32"
+    },
+    "name": "cơm cháy mắm tỏi ớt",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c27"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c24"
+    },
+    "description": "Cơm cháy mắm tỏi ớt là món ăn vặt khoái khẩu với sự kết hợp bùng nổ giữa cơm cháy giòn tan và sốt mắm tỏi ớt đậm đà, cay nồng. Mỗi miếng cơm cháy được áo đều bởi lớp sốt thơm lừng, kích thích mọi giác quan, khiến bạn ăn một lần là nhớ mãi!",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "300g",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3201"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": " Hộp 300g",
+        "quantity": 50,
+        "price": 65000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3202"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "H16.jpg",
+        "path": "images/H16.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-08T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T12:35:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2025-10-08T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-08T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c33"
+    },
+    "name": "kẹo cu đơ( loại trắng 1 hộp 600gram)",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c28"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c23"
+    },
+    "description": "Kẹo Cu Đơ Trắng là phiên bản thanh ngọt hơn của đặc sản kẹo cu đơ Hà Tĩnh – món quà quê gắn liền với vùng đất miền Trung đầy nắng gió. Không dùng mật mía như cu đơ truyền thống, cu đơ trắng được làm từ đường tinh luyện, kết hợp với lạc rang giòn, gừng tươi, và bánh tráng mỏng tạo nên hương vị nhẹ nhàng, dễ ăn, phù hợp với mọi lứa tuổi.",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "600g",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3301"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "  Hộp 600g",
+        "quantity": 50,
+        "price": 60000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3302"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "H17.jpg",
+        "path": "images/H17.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-09T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T12:40:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2025-11-09T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-09T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c34"
+    },
+    "name": "kẹo cu đơ(loại đen 1 hộp 900gram)",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c28"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c23"
+    },
+    "description": "Kẹo cu đơ đen là phiên bản nguyên gốc và truyền thống nhất của đặc sản kẹo cu đơ xứ Nghệ – Hà Tĩnh. Loại 'đen' ở đây không phải do màu cháy, mà vì được làm từ mật mía nguyên chất, khi nấu lên có màu nâu cánh gián đậm đặc trưng. Sự kết hợp giữa mật mía, lạc rang, gừng tươi và bánh tráng tạo nên hương vị đậm đà, nồng nàn, mộc mạc đúng chất miền Trung.",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "900g",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3401"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "  Hộp 900g",
+        "quantity": 50,
+        "price": 105000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3402"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "H18.jpg",
+        "path": "images/H18.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-10T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T12:45:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2025-11-10T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-10T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c35"
+    },
+    "name": "bánh dừa non(tròn)",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c29"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c23"
+    },
+    "description": "Tròn vị( xoài, sầu riêng, cà phê, sữa dừa, là dứa). Bánh dừa non Tròn Vị là dòng bánh dừa hiện đại, kết hợp giữa cơm dừa non mềm dẻo và các hương vị trái cây – cà phê – sữa đặc trưng, tạo nên những chiếc bánh tròn xinh, thơm béo, ngọt dịu. Mỗi miếng bánh là một trải nghiệm hương vị khác nhau, phù hợp làm quà tặng hoặc ăn vặt hằng ngày.",
+    "specs": [
+      {
+        "key": "Hương vị",
+        "value": "Mix 5 vị",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3501"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "  Hộp",
+        "quantity": 50,
+        "price": 25000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3502"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "H19.jpg",
+        "path": "images/H19.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-11T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T12:50:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2025-09-11T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-11T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c36"
+    },
+    "name": "bánh dừa non(vuông)",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c29"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c23"
+    },
+    "description": "Vuông vị( xoài, sầu riêng, cà phê, sữa dừa, là dứa). Bánh dừa non vuông vị là dòng bánh dẻo thơm hiện đại, được tạo hình vuông nhỏ xinh, kết hợp cùng cơm dừa non béo ngậy và 5 hương vị tự nhiên đầy hấp dẫn. Bánh có kết cấu mềm dẻo vừa phải, không dính tay, dễ ăn – thích hợp cho mọi lứa tuổi và mọi dịp.",
+    "specs": [
+      {
+        "key": "Hương vị",
+        "value": "Mix 5 vị",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3601"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "  Hộp",
+        "quantity": 50,
+        "price": 30000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3602"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "H20.jpg",
+        "path": "images/H20.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-12T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T12:55:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2025-09-12T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-12T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c37"
+    },
+    "name": "bánh sữa ba vì(nguyên vị)",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c29"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c23"
+    },
+    "description": "Bánh sữa Ba Vì nguyên vị là một trong những đặc sản nổi tiếng của huyện Ba Vì, Hà Nội – vùng đất được mệnh danh là “thiên đường bò sữa”. Sản phẩm được làm từ nguồn sữa tươi nguyên chất, mang hương vị thơm ngon, mềm mịn, béo ngậy đặc trưng không thể nhầm lẫn.",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "150g",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3701"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "  Hộp 150g",
+        "quantity": 100,
+        "price": 25000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3702"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "H3.jpg",
+        "path": "images/H3.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-13T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T13:00:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2025-08-13T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-13T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c38"
+    },
+    "name": "bánh sữa ba vì (socola)",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c29"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c23"
+    },
+    "description": "Bánh sữa Ba Vì vị socola là phiên bản biến tấu từ dòng bánh sữa truyền thống nguyên vị, kết hợp giữa sữa bò tươi nguyên chất và socola nguyên chất thơm lừng. Sản phẩm vừa giữ được độ béo ngậy đặc trưng của sữa Ba Vì, vừa mang hương vị ngọt đậm, quyến rũ của socola – rất được lòng giới trẻ và trẻ em.",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "150g",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3801"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "  Hộp 150g",
+        "quantity": 100,
+        "price": 30000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3802"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "H4.jpg",
+        "path": "images/H4.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-14T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T13:05:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2025-08-14T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-14T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c39"
+    },
+    "name": "bánh tráng phơi sương 1kg",
+    "brand": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c29"
+    },
+    "category": {
+      "$oid": "666f9a1b1e8d4c2f3b9f9c24"
+    },
+    "description": "Bánh tráng phơi sương là đặc sản trứ danh của vùng Trảng Bàng – Tây Ninh, nổi bật với độ dẻo, mềm, thơm và dễ cuốn. Khác với bánh tráng nướng hoặc bánh tráng khô thông thường, loại bánh này được tráng thủ công, phơi nắng và 'hấp sương' qua đêm, tạo nên hương vị mộc mạc, tinh tế, rất được ưa chuộng trong các món cuốn truyền thống.",
+    "specs": [
+      {
+        "key": "Khối lượng",
+        "value": "1kg",
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3901"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "  Xấp 1kg",
+        "quantity": 20,
+        "price": 38000,
+        "_id": {
+          "$oid": "689a1b1e8d4c2f3b9f9c3902"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "H9.jpg",
+        "path": "images/H9.jpg",
+        "mimetype": "image/jpeg",
+        "size": 12345
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-15T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T13:10:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2025-08-05T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-15T11:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666f8a9b8e4d3c1f2b8f8b90"
+    },
+    "name": "bánh pía sầu riêng đậu xanh trứng muối",
+    "brand": {
+      "$oid": "666f8a9b8e4d3c1f2b8f8b8a"
+    },
+    "category": {
+      "$oid": "666f8a9b8e4d3c1f2b8f8b8c"
+    },
+    "description": "Bánh Pía Sóc Trăng chính hiệu với lớp vỏ mỏng nhiều lớp, nhân sầu riêng thơm lừng hòa quyện cùng vị bùi của đậu xanh và vị mặn béo của trứng muối.",
+    "specs": [
+      {
+        "key": "Trọng lượng",
+        "value": "400g",
+        "_id": {
+          "$oid": "688f99fea28a5320aa0db15e"
+        }
+      },
+      {
+        "key": "Hạn sử dụng",
+        "value": "30 ngày",
+        "_id": {
+          "$oid": "688f9a08a28a5320aa0db15f"
+        }
+      }
+    ],
+    "isAvailable": true,
+    "isDeleted": false,
+    "inStock": [
+      {
+        "variant": "Hộp 4 cái",
+        "quantity": 150,
+        "price": 65000,
+        "_id": {
+          "$oid": "688f9a13a28a5320aa0db160"
+        }
+      },
+      {
+        "variant": "Hộp 2 cái",
+        "quantity": 80,
+        "price": 35000,
+        "_id": {
+          "$oid": "688f9a19a28a5320aa0db161"
+        }
+      }
+    ],
+    "images": [
+      {
+        "filename": "banh-pia-1.jpg",
+        "path": "/uploads/products/banh-pia-1.jpg",
+        "mimetype": "image/jpeg",
+        "size": 512000
+      },
+      {
+        "filename": "banh-pia-2.jpg",
+        "path": "/uploads/products/banh-pia-2.jpg",
+        "mimetype": "image/jpeg",
+        "size": 614400
+      }
+    ],
+    "__v": 1,
+    "createdAt": {
+      "$date": "2025-07-16T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-01T13:15:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2025-08-16T23:59:59.000Z"
+    },
+    "importDate": {
+      "$date": "2025-07-16T11:00:00.000Z"
+    }
+  }
+]

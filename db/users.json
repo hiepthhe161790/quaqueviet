@@ -1,0 +1,110 @@
+[
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c1a"},
+    "email": "admin_manager@dacsanquenha.com",
+    "passwordToken": "$2a$10$/Luhv3r.lsvWOMHPxnS98e6fVpFSC3VXMkNJ8q/FNdNxJBIbhKi9K",
+    "fullName": "Trần Quản Trị",
+    "address": "Số 1, Đường Lãnh Đạo, Quận Ba Đình, Hà Nội",
+    "phoneNumber": "0912345678",
+    "role": "admin",
+    "isVerified": true,
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.admin.token",
+    "createdAt": "2025-06-17T14:00:00.000Z"
+  },
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c1b"},
+    "email": "salesmanager.01@dacsanquenha.com",
+    "passwordToken": "$2a$10$/Luhv3r.lsvWOMHPxnS98e6fVpFSC3VXMkNJ8q/FNdNxJBIbhKi9K",
+    "fullName": "Lê Thị Doanh Thu",
+    "address": "Số 10, Đường Kinh Doanh, Quận 1, TP. Hồ Chí Minh",
+    "phoneNumber": "0988111222",
+    "role": "sales manager",
+    "isVerified": true,
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.sales1.token",
+    "createdAt": "2025-06-17T14:05:00.000Z"
+  },
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c1c"},
+    "email": "salesmanager.02@dacsanquenha.com",
+    "passwordToken": "$2a$10$/Luhv3r.lsvWOMHPxnS98e6fVpFSC3VXMkNJ8q/FNdNxJBIbhKi9K",
+    "fullName": "Phạm Minh Phát",
+    "address": "Số 20, Đường Phát Triển, Quận Hải Châu, Đà Nẵng",
+    "phoneNumber": "0977333444",
+    "role": "sales manager",
+    "isVerified": true,
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.sales2.token",
+    "createdAt": "2025-06-17T14:06:00.000Z"
+  },
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c1d"},
+    "email": "khachhang.an@gmail.com",
+    "passwordToken": "$2a$10$/Luhv3r.lsvWOMHPxnS98e6fVpFSC3VXMkNJ8q/FNdNxJBIbhKi9K",
+    "fullName": "Nguyễn Văn An",
+    "address": "111 Đường Nguyễn Trãi, Thanh Xuân, Hà Nội",
+    "phoneNumber": "0905123123",
+    "role": "customer",
+    "isVerified": true,
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.customer1.token",
+    "createdAt": "2025-06-17T14:10:00.000Z"
+  },
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c1e"},
+    "email": "khachhang.binh@gmail.com",
+    "passwordToken": "$2a$10$/Luhv3r.lsvWOMHPxnS98e6fVpFSC3VXMkNJ8q/FNdNxJBIbhKi9K",
+    "fullName": "Trần Thị Bình",
+    "address": "222 Đường Lê Lợi, Quận 1, TP. Hồ Chí Minh",
+    "phoneNumber": "0905234234",
+    "role": "customer",
+    "isVerified": true,
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.customer2.token",
+    "createdAt": "2025-06-17T14:11:00.000Z"
+  },
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c1f"},
+    "email": "khachhang.canh@gmail.com",
+    "passwordToken": "$2a$10$/Luhv3r.lsvWOMHPxnS98e6fVpFSC3VXMkNJ8q/FNdNxJBIbhKi9K",
+    "fullName": "Lý Văn Cảnh",
+    "address": "333 Đường Hùng Vương, Hải Châu, Đà Nẵng",
+    "phoneNumber": "0905345345",
+    "role": "customer",
+    "isVerified": true,
+    "createdAt": "2025-06-17T14:12:00.000Z"
+  },
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c20"},
+    "email": "khachhang.dung@gmail.com",
+    "passwordToken": "$2a$10$/Luhv3r.lsvWOMHPxnS98e6fVpFSC3VXMkNJ8q/FNdNxJBIbhKi9K",
+    "fullName": "Võ Thị Dung",
+    "address": "444 Đường Trần Phú, Ninh Kiều, Cần Thơ",
+    "phoneNumber": "0905456456",
+    "role": "customer",
+    "isVerified": true,
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.customer4.token",
+    "createdAt": "2025-06-17T14:13:00.000Z"
+  },
+  {
+    "_id": { "$oid": "666f9a1b1e8d4c2f3b9f9c21"},
+    "email": "khachhang.em@gmail.com",
+    "passwordToken": "$2a$10$/Luhv3r.lsvWOMHPxnS98e6fVpFSC3VXMkNJ8q/FNdNxJBIbhKi9K",
+    "fullName": "Hoàng Văn Em",
+    "address": "555 Đường Bạch Đằng, Hoàn Kiếm, Hà Nội",
+    "phoneNumber": "0905567567",
+    "role": "customer",
+    "isVerified": true,
+    "createdAt": "2025-06-17T14:14:00.000Z"
+  },
+  {
+    "_id": { "$oid": "666f8a9b8e4d3c1f2b8f8b9e"},
+    "email": "nguyenvana@example.com",
+    "passwordToken": "$2a$10$/Luhv3r.lsvWOMHPxnS98e6fVpFSC3VXMkNJ8q/FNdNxJBIbhKi9K",
+    "fullName": "Nguyễn Văn A",
+    "address": "123 Đường ABC, Phường XYZ, Quận 1, TP. Hồ Chí Minh",
+    "phoneNumber": "0987654321",
+    "role": "customer",
+    "otp": "123456",
+    "otpExpires": "2025-06-17T12:45:00.000Z",
+    "isVerified": true,
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+    "createdAt": "2025-06-15T09:00:00.000Z"
+  }
+]

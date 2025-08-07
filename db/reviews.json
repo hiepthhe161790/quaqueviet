@@ -1,0 +1,9 @@
+{
+  "_id": { "$oid": "666f8a9b8e4d3c1f2b8f8b96"},
+  "productId": { "$oid": "666f8a9b8e4d3c1f2b8f8b90"},
+  "userId": { "$oid": "666f8a9b8e4d3c1f2b8f8b9e"},
+  "rating": 5,
+  "comment": "Bánh rất ngon, sầu riêng thơm, nhân mềm, không quá ngọt. Giao hàng nhanh. Sẽ ủng hộ shop tiếp.",
+  "createdAt": "2025-06-20T10:00:00.000Z"
+}
+
