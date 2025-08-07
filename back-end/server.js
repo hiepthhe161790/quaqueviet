@@ -19,10 +19,18 @@ mongoose.connect(databaseURL)
 const server = http.createServer(app);
 socket.init(server);
 
+// Configure CORS with origins from environment variable
+const corsOrigins = process.env.CORS_ORIGINS ? process.env.CORS_ORIGINS.split(',') : ['http://localhost:3000'];
 app.use(cors({
-  origin: ["http://localhost:3000"],
-  credentials: true
+  origin: corsOrigins,
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept']
 }));
+
+app.get('/', (req, res) => {
+  res.send('Hello HiepDevs! Server is running.');
+});
 
 app.use(cookieParser());
 app.use(express.json());
