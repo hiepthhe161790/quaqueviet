@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "env": {
+    "REACT_APP_BACKEND_API_URI": "https://quaqueviet-rg68.vercel.app/api/v1",
+    "REACT_APP_SOCKET_URL": "https://quaqueviet-rg68.vercel.app"
+  }
+}

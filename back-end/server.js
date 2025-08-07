@@ -39,6 +39,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(routes);
 app.use(ErrorHandle.handleError);
 
-server.listen(serverHostPort, () => {
-  console.log(`Server is running on http://localhost:${serverHostPort}`);
+const PORT = process.env.PORT || serverHostPort;
+
+server.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
